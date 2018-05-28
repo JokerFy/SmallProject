@@ -1,0 +1,148 @@
+[ 2018-05-18T15:13:11+08:00 ] [ error ] [2]move_uploaded_file(upload\溏心桂花糕.jpg): failed to open stream: Invalid argument[D:\web\smallProject\Zerg\thinkphp\library\think\File.php:323]
+
+---------------------------------------------------------------
+[ 2018-05-18T15:15:36+08:00 ] [ error ] [2]move_uploaded_file(upload\溏心桂花糕.jpg): failed to open stream: Invalid argument[D:\web\smallProject\Zerg\thinkphp\library\think\File.php:323]
+
+---------------------------------------------------------------
+[ 2018-05-18T15:15:57+08:00 ] [ error ] [2]move_uploaded_file(upload\溏心桂花糕.jpg): failed to open stream: Invalid argument[D:\web\smallProject\Zerg\thinkphp\library\think\File.php:323]
+
+---------------------------------------------------------------
+[ 2018-05-18T15:17:43+08:00 ] [ error ] [1]Call to a member function getInfo() on null[D:\web\smallProject\Zerg\application\api\controller\v1\Image.php:15]
+
+---------------------------------------------------------------
+[ 2018-05-18T15:21:35+08:00 ] [ error ] [401][D:\web\smallProject\Zerg\application\api\controller\v1\Image.php:23]
+
+---------------------------------------------------------------
+[ 2018-05-18T15:22:24+08:00 ] [ error ] [401][D:\web\smallProject\Zerg\application\api\controller\v1\Image.php:23]
+
+---------------------------------------------------------------
+[ 2018-05-18T15:53:12+08:00 ] [ error ] [8]Trying to get property of non-object[D:\web\smallProject\Zerg\application\api\controller\v1\Image.php:21]
+
+---------------------------------------------------------------
+[ 2018-05-18T16:57:56+08:00 ] [ error ] [0]数据表字段不存在:[file][D:\web\smallProject\Zerg\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2018-05-18T16:59:18+08:00 ] [ error ] [8]Trying to get property of non-object[D:\web\smallProject\Zerg\application\api\controller\v1\Product.php:144]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:00:33+08:00 ] [ error ] [8]Trying to get property of non-object[D:\web\smallProject\Zerg\application\api\controller\v1\Product.php:144]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:01:25+08:00 ] [ error ] [8]Trying to get property of non-object[D:\web\smallProject\Zerg\application\api\controller\v1\Product.php:144]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:04:26+08:00 ] [ error ] [8]Trying to get property of non-object[D:\web\smallProject\Zerg\application\api\controller\v1\Product.php:144]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:13:35+08:00 ] [ error ] [1]Call to a member function getLastInsID() on null[D:\web\smallProject\Zerg\application\api\controller\v1\Product.php:144]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:23:42+08:00 ] [ error ] [1]Call to a member function getLastInsID() on integer[D:\web\smallProject\Zerg\application\api\controller\v1\Product.php:144]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:24:41+08:00 ] [ error ] [1]Call to a member function getLastInsID() on integer[D:\web\smallProject\Zerg\application\api\controller\v1\Product.php:144]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:24:59+08:00 ] [ error ] [1]Call to a member function getLastInsID() on integer[D:\web\smallProject\Zerg\application\api\controller\v1\Product.php:144]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:25:16+08:00 ] [ error ] [1]Call to a member function getLastInsID() on integer[D:\web\smallProject\Zerg\application\api\controller\v1\Product.php:144]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:27:02+08:00 ] [ error ] [1]Call to a member function getLastInsID() on integer[D:\web\smallProject\Zerg\application\api\controller\v1\Product.php:144]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:27:10+08:00 ] [ error ] [1]Call to a member function getLastInsID() on integer[D:\web\smallProject\Zerg\application\api\controller\v1\Product.php:144]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:27:14+08:00 ] [ error ] [1]Call to a member function getLastInsID() on integer[D:\web\smallProject\Zerg\application\api\controller\v1\Product.php:144]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:39:20+08:00 ] [ error ] [0]method not exist:think\db\Query->add[D:\web\smallProject\Zerg\thinkphp\library\think\db\Query.php:93]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:39:49+08:00 ] [ error ] [0]method not exist:think\db\Query->add[D:\web\smallProject\Zerg\thinkphp\library\think\db\Query.php:93]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:39:53+08:00 ] [ error ] [0]method not exist:think\db\Query->add[D:\web\smallProject\Zerg\thinkphp\library\think\db\Query.php:93]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:42:19+08:00 ] [ error ] [0]method not exist:think\db\Query->add[D:\web\smallProject\Zerg\thinkphp\library\think\db\Query.php:93]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:52:37+08:00 ] [ error ] [8]Trying to get property of non-object[D:\web\smallProject\Zerg\application\api\controller\v1\Product.php:144]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:54:28+08:00 ] [ error ] [4]语法错误: unexpected '*'[D:\web\smallProject\Zerg\application\api\controller\v1\Product.php:150]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:55:14+08:00 ] [ error ] [8]Trying to get property of non-object[D:\web\smallProject\Zerg\application\api\controller\v1\Product.php:146]
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined index: from' in D:\web\smallProject\Zerg\application\api\model\BaseModel.php:28
+Stack trace:
+#0 D:\web\smallProject\Zerg\application\api\model\BaseModel.php(28): think\Error::appError(8, 'Undefined index...', 'D:\\web\\smallPro...', 28, Array)
+#1 D:\web\smallProject\Zerg\application\api\model\Image.php(11): app\api\model\BaseModel->prefixImgUrl('/0', Array)
+#2 D:\web\smallProject\Zerg\thinkphp\library\think\Model.php(438): app\api\model\Image->getUrlAttr('/0', Array)
+#3 D:\web\smallProject\Zerg\thinkphp\library\think\Model.php(680): think\Model->getAttr('url')
+#4 D:\web\smallProject\Zerg\thinkphp\library\think\Model.php(1839): think\Model->toArray()
+#5 [internal function]: think\Model->jsonSerialize()
+#6 D:\web\smallProject\Zerg\thinkphp\tpl\think_exception.tpl(385): json_encode(Object(app\api\model\Image), 128)
+#7 D:\web\smallProject\Zerg\thinkphp\library\think\exception\Handle.php(162): include('D:\\web\\smallPro...')
+#8 D:\web\smal[D:\web\smallProject\Zerg\application\api\model\BaseModel.php:28]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:57:35+08:00 ] [ error ] [8]Trying to get property of non-object[D:\web\smallProject\Zerg\application\api\controller\v1\Product.php:146]
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined index: from' in D:\web\smallProject\Zerg\application\api\model\BaseModel.php:28
+Stack trace:
+#0 D:\web\smallProject\Zerg\application\api\model\BaseModel.php(28): think\Error::appError(8, 'Undefined index...', 'D:\\web\\smallPro...', 28, Array)
+#1 D:\web\smallProject\Zerg\application\api\model\Image.php(11): app\api\model\BaseModel->prefixImgUrl('/0', Array)
+#2 D:\web\smallProject\Zerg\thinkphp\library\think\Model.php(438): app\api\model\Image->getUrlAttr('/0', Array)
+#3 D:\web\smallProject\Zerg\thinkphp\library\think\Model.php(680): think\Model->getAttr('url')
+#4 D:\web\smallProject\Zerg\thinkphp\library\think\Model.php(1839): think\Model->toArray()
+#5 [internal function]: think\Model->jsonSerialize()
+#6 D:\web\smallProject\Zerg\thinkphp\tpl\think_exception.tpl(385): json_encode(Object(app\api\model\Image), 128)
+#7 D:\web\smallProject\Zerg\thinkphp\library\think\exception\Handle.php(162): include('D:\\web\\smallPro...')
+#8 D:\web\smal[D:\web\smallProject\Zerg\application\api\model\BaseModel.php:28]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:57:38+08:00 ] [ error ] [8]Trying to get property of non-object[D:\web\smallProject\Zerg\application\api\controller\v1\Product.php:146]
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined index: from' in D:\web\smallProject\Zerg\application\api\model\BaseModel.php:28
+Stack trace:
+#0 D:\web\smallProject\Zerg\application\api\model\BaseModel.php(28): think\Error::appError(8, 'Undefined index...', 'D:\\web\\smallPro...', 28, Array)
+#1 D:\web\smallProject\Zerg\application\api\model\Image.php(11): app\api\model\BaseModel->prefixImgUrl('/Bo0face-girl@2...', Array)
+#2 D:\web\smallProject\Zerg\thinkphp\library\think\Model.php(438): app\api\model\Image->getUrlAttr('/Bo0face-girl@2...', Array)
+#3 D:\web\smallProject\Zerg\thinkphp\library\think\Model.php(680): think\Model->getAttr('url')
+#4 D:\web\smallProject\Zerg\thinkphp\library\think\Model.php(1839): think\Model->toArray()
+#5 [internal function]: think\Model->jsonSerialize()
+#6 D:\web\smallProject\Zerg\thinkphp\tpl\think_exception.tpl(385): json_encode(Object(app\api\model\Image), 128)
+#7 D:\web\smallProject\Zerg\thinkphp\library\think\exception\Handle.php(162): include('D:\\w[D:\web\smallProject\Zerg\application\api\model\BaseModel.php:28]
+
+---------------------------------------------------------------
+[ 2018-05-18T17:57:39+08:00 ] [ error ] [8]Trying to get property of non-object[D:\web\smallProject\Zerg\application\api\controller\v1\Product.php:146]
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined index: from' in D:\web\smallProject\Zerg\application\api\model\BaseModel.php:28
+Stack trace:
+#0 D:\web\smallProject\Zerg\application\api\model\BaseModel.php(28): think\Error::appError(8, 'Undefined index...', 'D:\\web\\smallPro...', 28, Array)
+#1 D:\web\smallProject\Zerg\application\api\model\Image.php(11): app\api\model\BaseModel->prefixImgUrl('/Bo0face-girl@2...', Array)
+#2 D:\web\smallProject\Zerg\thinkphp\library\think\Model.php(438): app\api\model\Image->getUrlAttr('/Bo0face-girl@2...', Array)
+#3 D:\web\smallProject\Zerg\thinkphp\library\think\Model.php(680): think\Model->getAttr('url')
+#4 D:\web\smallProject\Zerg\thinkphp\library\think\Model.php(1839): think\Model->toArray()
+#5 [internal function]: think\Model->jsonSerialize()
+#6 D:\web\smallProject\Zerg\thinkphp\tpl\think_exception.tpl(385): json_encode(Object(app\api\model\Image), 128)
+#7 D:\web\smallProject\Zerg\thinkphp\library\think\exception\Handle.php(162): include('D:\\w[D:\web\smallProject\Zerg\application\api\model\BaseModel.php:28]
+
+---------------------------------------------------------------
+[ 2018-05-18T18:02:40+08:00 ] [ error ] [0]数据表字段不存在:[create_time][D:\web\smallProject\Zerg\thinkphp\library\think\db\Builder.php:103]
+
+---------------------------------------------------------------
+[ 2018-05-18T18:03:29+08:00 ] [ error ] [8]Trying to get property of non-object[D:\web\smallProject\Zerg\application\api\controller\v1\Product.php:145]
+[ error ] [1]Uncaught exception 'think\exception\ErrorException' with message 'Undefined index: from' in D:\web\smallProject\Zerg\application\api\model\BaseModel.php:28
+Stack trace:
+#0 D:\web\smallProject\Zerg\application\api\model\BaseModel.php(28): think\Error::appError(8, 'Undefined index...', 'D:\\web\\smallPro...', 28, Array)
+#1 D:\web\smallProject\Zerg\application\api\model\Image.php(11): app\api\model\BaseModel->prefixImgUrl('/Xe3face-girl@1...', Array)
+#2 D:\web\smallProject\Zerg\thinkphp\library\think\Model.php(438): app\api\model\Image->getUrlAttr('/Xe3face-girl@1...', Array)
+#3 D:\web\smallProject\Zerg\thinkphp\library\think\Model.php(680): think\Model->getAttr('url')
+#4 D:\web\smallProject\Zerg\thinkphp\library\think\Model.php(1839): think\Model->toArray()
+#5 [internal function]: think\Model->jsonSerialize()
+#6 D:\web\smallProject\Zerg\thinkphp\tpl\think_exception.tpl(385): json_encode(Object(app\api\model\Image), 128)
+#7 D:\web\smallProject\Zerg\thinkphp\library\think\exception\Handle.php(162): include('D:\\w[D:\web\smallProject\Zerg\application\api\model\BaseModel.php:28]
+
+---------------------------------------------------------------

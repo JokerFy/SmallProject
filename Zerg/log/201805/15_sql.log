@@ -1,0 +1,126 @@
+[ 2018-05-15T09:43:17+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `order`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_product`.`delete_time` IS NULL  AND `order_id` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `product`.`delete_time` IS NULL  AND `id` IN (5,20) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-15T09:44:20+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `order`.`delete_time` IS NULL  AND `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_product`.`delete_time` IS NULL  AND `order_id` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `product`.`delete_time` IS NULL  AND `id` IN (5,7,9,10,14,15,20) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-15T09:45:47+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `order`.`delete_time` IS NULL  AND `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_product`.`delete_time` IS NULL  AND `order_id` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `product`.`delete_time` IS NULL  AND `id` IN (5,7,9,10,14,15,20) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:23:33+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `order`.`delete_time` IS NULL  AND `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_product`.`delete_time` IS NULL  AND `order_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `product`.`delete_time` IS NULL  AND `id` IN (7,10) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:23:36+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `order`.`delete_time` IS NULL  AND `id` = 4 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_product`.`delete_time` IS NULL  AND `order_id` = 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `product`.`delete_time` IS NULL  AND `id` IN (7,10) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:24:23+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `order`.`delete_time` IS NULL  AND `id` = 5 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_product`.`delete_time` IS NULL  AND `order_id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `product`.`delete_time` IS NULL  AND `id` IN (7,10) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:26:54+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `order`.`delete_time` IS NULL  AND `id` = 7 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_product`.`delete_time` IS NULL  AND `order_id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `product`.`delete_time` IS NULL  AND `id` IN (9) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:30:16+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `order`.`delete_time` IS NULL  AND `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_product`.`delete_time` IS NULL  AND `order_id` = 8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `product`.`delete_time` IS NULL  AND `id` IN (9) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:30:17+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `order`.`delete_time` IS NULL  AND `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_product`.`delete_time` IS NULL  AND `order_id` = 9 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `product`.`delete_time` IS NULL  AND `id` IN (9) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:30:39+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `order`.`delete_time` IS NULL  AND `id` = 10 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_product`.`delete_time` IS NULL  AND `order_id` = 10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `product`.`delete_time` IS NULL  AND `id` IN (9) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:30:43+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `order`.`delete_time` IS NULL  AND `id` = 15 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_product`.`delete_time` IS NULL  AND `order_id` = 15 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `product`.`delete_time` IS NULL  AND `id` IN (9) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:30:43+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `order`.`delete_time` IS NULL  AND `id` = 16 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_product`.`delete_time` IS NULL  AND `order_id` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `product`.`delete_time` IS NULL  AND `id` IN (9) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:38:10+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `order`.`delete_time` IS NULL  AND `id` = 19 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_product`.`delete_time` IS NULL  AND `order_id` = 19 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `product`.`delete_time` IS NULL  AND `id` IN (5,7,9,10,14,15,20) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:47:58+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `order` WHERE  `order`.`delete_time` IS NULL  AND `id` = 20 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order_product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `order_product` WHERE  `order_product`.`delete_time` IS NULL  AND `order_id` = 20 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `product`.`delete_time` IS NULL  AND `id` IN (5,7,9,10,14,15,20) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------

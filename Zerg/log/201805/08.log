@@ -1,0 +1,262 @@
+[ 2018-05-08T10:16:54+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/banner/1
+[ log ] z.cn/api/v1/banner/1 [运行时间：0.314000s][吞吐率：3.18req/s] [内存消耗：3,192.30kb] [文件加载：61]
+
+---------------------------------------------------------------
+[ 2018-05-08T11:06:28+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/banner/1
+[ log ] z.cn/api/v1/banner/1 [运行时间：0.312000s][吞吐率：3.21req/s] [内存消耗：3,192.31kb] [文件加载：61]
+
+---------------------------------------------------------------
+[ 2018-05-08T11:30:51+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/banner/1
+[ log ] z.cn/api/v1/banner/1 [运行时间：0.315000s][吞吐率：3.17req/s] [内存消耗：3,192.31kb] [文件加载：61]
+
+---------------------------------------------------------------
+[ 2018-05-08T14:16:14+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/theme/1
+[ log ] z.cn/api/v1/theme/1 [运行时间：0.116000s][吞吐率：8.62req/s] [内存消耗：3,257.05kb] [文件加载：61]
+
+---------------------------------------------------------------
+[ 2018-05-08T14:16:22+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/theme/1
+[ log ] z.cn/api/v1/theme/1 [运行时间：0.114000s][吞吐率：8.77req/s] [内存消耗：3,257.05kb] [文件加载：61]
+
+---------------------------------------------------------------
+[ 2018-05-08T14:25:23+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/banner/1
+[ log ] z.cn/api/v1/banner/1 [运行时间：0.115000s][吞吐率：8.70req/s] [内存消耗：3,192.23kb] [文件加载：61]
+
+---------------------------------------------------------------
+[ 2018-05-08T14:35:40+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/theme?ids=1,2
+[ log ] z.cn/api/v1/theme?ids=1,2 [运行时间：0.280000s][吞吐率：3.57req/s] [内存消耗：3,134.95kb] [文件加载：58]
+
+---------------------------------------------------------------
+[ 2018-05-08T14:36:46+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/banner/1
+[ log ] z.cn/api/v1/banner/1 [运行时间：0.304000s][吞吐率：3.29req/s] [内存消耗：3,193.16kb] [文件加载：61]
+
+---------------------------------------------------------------
+[ 2018-05-08T14:36:46+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/token/user
+[ log ] z.cn/api/v1/token/user [运行时间：0.509000s][吞吐率：1.96req/s] [内存消耗：2,757.98kb] [文件加载：52]
+
+---------------------------------------------------------------
+[ 2018-05-08T14:36:46+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/product/recent
+[ log ] z.cn/api/v1/product/recent [运行时间：0.275000s][吞吐率：3.64req/s] [内存消耗：3,027.66kb] [文件加载：54]
+
+---------------------------------------------------------------
+[ 2018-05-08T14:36:46+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] z.cn/api/v1/theme?ids=1,2,3 [运行时间：0.277000s][吞吐率：3.61req/s] [内存消耗：3,136.58kb] [文件加载：58]
+
+---------------------------------------------------------------
+[ 2018-05-08T14:37:11+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] z.cn/api/v1/theme?ids=1,2,3 [运行时间：0.273000s][吞吐率：3.66req/s] [内存消耗：3,135.65kb] [文件加载：58]
+
+---------------------------------------------------------------
+[ 2018-05-08T14:38:06+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/theme?ids=1,2,3dsasd
+[ log ] z.cn/api/v1/theme?ids=1,2,3dsasd [运行时间：0.271000s][吞吐率：3.69req/s] [内存消耗：3,135.66kb] [文件加载：58]
+
+---------------------------------------------------------------
+[ 2018-05-08T15:37:20+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] z.cn/api/v1/theme?ids=1,2,3 [运行时间：0.279000s][吞吐率：3.58req/s] [内存消耗：3,135.65kb] [文件加载：58]
+
+---------------------------------------------------------------
+[ 2018-05-08T15:54:49+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/theme/1/product/20
+[ log ] z.cn/api/v1/theme/1/product/20 [运行时间：0.286000s][吞吐率：3.50req/s] [内存消耗：3,109.31kb] [文件加载：59]
+
+---------------------------------------------------------------
+[ 2018-05-08T16:08:00+08:00 ] 127.0.0.7 127.0.0.1 DELETE /api/v1/theme/1/product/20
+[ log ] z.cn/api/v1/theme/1/product/20 [运行时间：0.494000s][吞吐率：2.02req/s] [内存消耗：3,121.87kb] [文件加载：60]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product.delete_time' in 'where clause'[D:\web\smallProject\Zerg\thinkphp\library\think\db\Connection.php:457]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `theme`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `product`.`delete_time` IS NULL  AND `id` = 20 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.006000s ]
+
+---------------------------------------------------------------
+[ 2018-05-08T16:08:56+08:00 ] 127.0.0.7 127.0.0.1 DELETE /api/v1/theme/1/product/20
+[ log ] z.cn/api/v1/theme/1/product/20 [运行时间：0.503000s][吞吐率：1.99req/s] [内存消耗：3,121.51kb] [文件加载：60]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product.delete_time' in 'where clause'[D:\web\smallProject\Zerg\thinkphp\library\think\db\Connection.php:457]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `theme`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `product`.`delete_time` IS NULL  AND `id` = 20 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.006000s ]
+
+---------------------------------------------------------------
+[ 2018-05-08T16:15:14+08:00 ] 127.0.0.7 127.0.0.1 DELETE /api/v1/theme/1/product/20
+[ log ] z.cn/api/v1/theme/1/product/20 [运行时间：0.493000s][吞吐率：2.03req/s] [内存消耗：3,121.39kb] [文件加载：60]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\CORS @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\web\smallProject\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'deleteThemeProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bad0c540-6de0-46ab-a39a-328238f2b9f2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'z.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  't_id' => '1',
+  'p_id' => '20',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->deleteThemeProduct[ D:\web\smallProject\Zerg\application\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-05-08T16:27:16+08:00 ] 127.0.0.7 127.0.0.1 DELETE /api/v1/theme/1/product/20?XDEBUG_SESSION_START=16214
+[ log ] z.cn/api/v1/theme/1/product/20?XDEBUG_SESSION_START=16214 [运行时间：91.344000s][吞吐率：0.01req/s] [内存消耗：3,013.55kb] [文件加载：55]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\CORS @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\web\smallProject\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'deleteThemeProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '491cba32-782e-4460-bd29-cc56245e17e2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'z.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '16214',
+  'version' => 'v1',
+  't_id' => '1',
+  'p_id' => '20',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->deleteThemeProduct[ D:\web\smallProject\Zerg\application\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-05-08T16:27:20+08:00 ] 127.0.0.7 127.0.0.1 DELETE /api/v1/theme/1/product/20
+[ log ] z.cn/api/v1/theme/1/product/20 [运行时间：0.489000s][吞吐率：2.04req/s] [内存消耗：3,121.63kb] [文件加载：60]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\CORS @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\web\smallProject\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'deleteThemeProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b2d9e9c7-f03b-4e6d-ab1d-ced1a6b5f9b3',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'z.cn',
+  'cookie' => 'XDEBUG_SESSION=16214',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  't_id' => '1',
+  'p_id' => '20',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->deleteThemeProduct[ D:\web\smallProject\Zerg\application\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-05-08T16:33:13+08:00 ] 127.0.0.7 127.0.0.1 DELETE /api/v1/theme/1/product/20
+[ log ] z.cn/api/v1/theme/1/product/20 [运行时间：0.495000s][吞吐率：2.02req/s] [内存消耗：3,121.68kb] [文件加载：60]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\CORS @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] D:\web\smallProject\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Theme',
+    2 => 'deleteThemeProduct',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a2c4a38e-6256-437e-838f-c5a59e9195e1',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'z.cn',
+  'cookie' => 'XDEBUG_SESSION=16214',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'version' => 'v1',
+  't_id' => '1',
+  'p_id' => '20',
+)
+[ info ] [ RUN ] app\api\controller\v1\Theme->deleteThemeProduct[ D:\web\smallProject\Zerg\application\api\controller\v1\Theme.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-05-08T17:19:59+08:00 ] 127.0.0.7 127.0.0.1 DELETE /api/v1/theme/1
+[ log ] z.cn/api/v1/theme/1 [运行时间：0.434000s][吞吐率：2.30req/s] [内存消耗：1,264.61kb] [文件加载：35]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\CORS @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\web\smallProject\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1',
+    2 => 'theme',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7c468c42-2722-4500-af13-f27d59dee188',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'z.cn',
+  'cookie' => 'XDEBUG_SESSION=16214',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-05-08T17:20:06+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/theme/1
+[ log ] z.cn/api/v1/theme/1 [运行时间：0.328000s][吞吐率：3.05req/s] [内存消耗：3,259.62kb] [文件加载：61]
+
+---------------------------------------------------------------
+[ 2018-05-08T17:35:12+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] z.cn/api/v1/theme?ids=1,2,3 [运行时间：0.104000s][吞吐率：9.62req/s] [内存消耗：3,137.27kb] [文件加载：58]
+
+---------------------------------------------------------------
+[ 2018-05-08T17:39:17+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/theme/1
+[ log ] z.cn/api/v1/theme/1 [运行时间：0.307000s][吞吐率：3.26req/s] [内存消耗：3,259.49kb] [文件加载：61]
+
+---------------------------------------------------------------

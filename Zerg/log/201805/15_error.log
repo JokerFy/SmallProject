@@ -1,0 +1,121 @@
+[ 2018-05-15T09:42:53+08:00 ] [ error ] [401][D:\web\smallProject\Zerg\application\api\service\Token.php:89]
+
+---------------------------------------------------------------
+[ 2018-05-15T09:42:53+08:00 ] [ error ] [401][D:\web\smallProject\Zerg\application\api\service\Token.php:89]
+
+---------------------------------------------------------------
+[ 2018-05-15T09:43:17+08:00 ] [ error ] array (
+  'return_code' => 'FAIL',
+  'return_msg' => 'mch_id参数格式错误',
+)
+[ error ] 获取预支付订单失败
+[ error ] [8]未定义数组索引: prepay_id[D:\web\smallProject\Zerg\application\api\service\Pay.php:91]
+
+---------------------------------------------------------------
+[ 2018-05-15T09:44:20+08:00 ] [ error ] array (
+  'return_code' => 'FAIL',
+  'return_msg' => 'mch_id参数格式错误',
+)
+[ error ] 获取预支付订单失败
+[ error ] [8]未定义数组索引: prepay_id[D:\web\smallProject\Zerg\application\api\service\Pay.php:91]
+
+---------------------------------------------------------------
+[ 2018-05-15T09:45:47+08:00 ] [ error ] array (
+  'return_code' => 'FAIL',
+  'return_msg' => 'mch_id参数格式错误',
+)
+[ error ] 获取预支付订单失败
+[ error ] [8]未定义数组索引: prepay_id[D:\web\smallProject\Zerg\application\api\service\Pay.php:91]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:23:33+08:00 ] [ error ] array (
+  'return_code' => 'FAIL',
+  'return_msg' => 'mch_id参数格式错误',
+)
+[ error ] 获取预支付订单失败
+[ error ] [8]未定义数组索引: prepay_id[D:\web\smallProject\Zerg\application\api\service\Pay.php:91]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:23:36+08:00 ] [ error ] array (
+  'return_code' => 'FAIL',
+  'return_msg' => 'mch_id参数格式错误',
+)
+[ error ] 获取预支付订单失败
+[ error ] [8]未定义数组索引: prepay_id[D:\web\smallProject\Zerg\application\api\service\Pay.php:91]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:24:23+08:00 ] [ error ] array (
+  'return_code' => 'FAIL',
+  'return_msg' => 'mch_id参数格式错误',
+)
+[ error ] 获取预支付订单失败
+[ error ] [8]未定义数组索引: prepay_id[D:\web\smallProject\Zerg\application\api\service\Pay.php:91]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:26:54+08:00 ] [ error ] array (
+  'return_code' => 'FAIL',
+  'return_msg' => 'mch_id参数格式错误',
+)
+[ error ] 获取预支付订单失败
+[ error ] [8]未定义数组索引: prepay_id[D:\web\smallProject\Zerg\application\api\service\Pay.php:91]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:30:16+08:00 ] [ error ] array (
+  'return_code' => 'FAIL',
+  'return_msg' => 'mch_id参数格式错误',
+)
+[ error ] 获取预支付订单失败
+[ error ] [8]未定义数组索引: prepay_id[D:\web\smallProject\Zerg\application\api\service\Pay.php:91]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:30:17+08:00 ] [ error ] array (
+  'return_code' => 'FAIL',
+  'return_msg' => 'mch_id参数格式错误',
+)
+[ error ] 获取预支付订单失败
+[ error ] [8]未定义数组索引: prepay_id[D:\web\smallProject\Zerg\application\api\service\Pay.php:91]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:30:39+08:00 ] [ error ] array (
+  'return_code' => 'FAIL',
+  'return_msg' => 'mch_id参数格式错误',
+)
+[ error ] 获取预支付订单失败
+[ error ] [8]未定义数组索引: prepay_id[D:\web\smallProject\Zerg\application\api\service\Pay.php:91]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:30:43+08:00 ] [ error ] array (
+  'return_code' => 'FAIL',
+  'return_msg' => 'mch_id参数格式错误',
+)
+[ error ] 获取预支付订单失败
+[ error ] [8]未定义数组索引: prepay_id[D:\web\smallProject\Zerg\application\api\service\Pay.php:91]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:30:43+08:00 ] [ error ] array (
+  'return_code' => 'FAIL',
+  'return_msg' => 'mch_id参数格式错误',
+)
+[ error ] 获取预支付订单失败
+[ error ] [8]未定义数组索引: prepay_id[D:\web\smallProject\Zerg\application\api\service\Pay.php:91]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:33:49+08:00 ] [ error ] [401][D:\web\smallProject\Zerg\application\api\service\Token.php:89]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:38:10+08:00 ] [ error ] array (
+  'return_code' => 'FAIL',
+  'return_msg' => 'mch_id参数格式错误',
+)
+[ error ] 获取预支付订单失败
+[ error ] [8]未定义数组索引: prepay_id[D:\web\smallProject\Zerg\application\api\service\Pay.php:91]
+
+---------------------------------------------------------------
+[ 2018-05-15T11:47:58+08:00 ] [ error ] array (
+  'return_code' => 'FAIL',
+  'return_msg' => 'mch_id参数格式错误',
+)
+[ error ] 获取预支付订单失败
+[ error ] [8]未定义数组索引: prepay_id[D:\web\smallProject\Zerg\application\api\service\Pay.php:91]
+
+---------------------------------------------------------------

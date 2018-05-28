@@ -1,0 +1,9 @@
+[ 2018-05-08T16:15:14+08:00 ] [ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product.delete_time' in 'where clause'[D:\web\smallProject\Zerg\thinkphp\library\think\db\Connection.php:457]
+
+---------------------------------------------------------------
+[ 2018-05-08T16:27:20+08:00 ] [ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product.delete_time' in 'where clause'[D:\web\smallProject\Zerg\thinkphp\library\think\db\Connection.php:457]
+
+---------------------------------------------------------------
+[ 2018-05-08T16:33:13+08:00 ] [ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product.delete_time' in 'where clause'[D:\web\smallProject\Zerg\thinkphp\library\think\db\Connection.php:457]
+
+---------------------------------------------------------------

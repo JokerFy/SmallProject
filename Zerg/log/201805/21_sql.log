@@ -1,0 +1,26 @@
+[ 2018-05-21T09:39:27+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] INSERT INTO `image` (`url`) VALUES ('/Cu3face-girl@2.jpeg') [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2018-05-21T09:40:42+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] INSERT INTO `image` (`url`) VALUES ('/Cu3face-girl@2.jpeg') [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2018-05-21T09:41:09+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] INSERT INTO `image` (`url`) VALUES ('/Oa2face-girl@2.jpeg') [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-05-21T09:46:29+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] INSERT INTO `image` (`url`) VALUES ('/El0face-girl@2.jpeg') [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.005000s ]
+
+---------------------------------------------------------------
+[ 2018-05-21T10:00:53+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] INSERT INTO `image` (`url`) VALUES ('/product-dx.jpg') [ RunTime:0.004000s ]
+
+---------------------------------------------------------------

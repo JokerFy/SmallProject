@@ -1,0 +1,17 @@
+[ 2018-05-09T15:18:58+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `category`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-05-09T15:20:46+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `category`.`delete_time` IS NULL  AND `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  ( `product`.`delete_time` IS NULL AND `product`.`delete_time` IS NULL AND `product`.`delete_time` IS NULL )  AND `category_id` = 2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-09T15:36:40+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `category`.`delete_time` IS NULL  AND `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------

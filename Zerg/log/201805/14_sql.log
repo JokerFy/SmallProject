@@ -1,0 +1,44 @@
+[ 2018-05-14T15:21:15+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_address`.`delete_time` IS NULL  AND `user_id` = 1 LIMIT 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-05-14T15:37:35+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_address`.`delete_time` IS NULL  AND `user_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-05-14T16:02:05+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_address`.`delete_time` IS NULL  AND `user_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-14T16:02:22+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_address`.`delete_time` IS NULL  AND `user_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-14T16:02:28+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `product`.`delete_time` IS NULL  AND `id` IN (5,3,11,10) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_address`.`delete_time` IS NULL  AND `user_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-05-14T16:02:31+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `product`.`delete_time` IS NULL  AND `id` IN (5,3,11,10) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_address`.`delete_time` IS NULL  AND `user_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-05-14T16:11:54+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_address`.`delete_time` IS NULL  AND `user_id` = 1 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-05-14T16:15:03+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=zerg;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_address`.`delete_time` IS NULL  AND `user_id` = 1 LIMIT 1 [ RunTime:0.004000s ]
+
+---------------------------------------------------------------

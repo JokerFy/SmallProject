@@ -1,0 +1,508 @@
+[ 2018-05-21T09:36:50+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/token/app
+[ log ] z.cn/api/v1/token/app [运行时间：0.272000s][吞吐率：3.68req/s] [内存消耗：2,749.28kb] [文件加载：51]
+
+---------------------------------------------------------------
+[ 2018-05-21T09:36:51+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/order/paginate?page=1&size=20
+[ log ] z.cn/api/v1/order/paginate?page=1&size=20 [运行时间：0.271000s][吞吐率：3.69req/s] [内存消耗：3,259.69kb] [文件加载：62]
+
+---------------------------------------------------------------
+[ 2018-05-21T09:36:53+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/product/paginate?page=1&size=20
+[ log ] z.cn/api/v1/product/paginate?page=1&size=20 [运行时间：0.269000s][吞吐率：3.72req/s] [内存消耗：3,130.20kb] [文件加载：57]
+
+---------------------------------------------------------------
+[ 2018-05-21T09:39:09+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/image/toupload
+[ log ] z.cn/api/v1/image/toupload [运行时间：0.241000s][吞吐率：4.15req/s] [内存消耗：2,002.89kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2018-05-21T09:39:27+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/product/create?XDEBUG_SESSION_START=14969
+[ log ] z.cn/api/v1/product/create?XDEBUG_SESSION_START=14969 [运行时间：0.474000s][吞吐率：2.11req/s] [内存消耗：2,960.73kb] [文件加载：59]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\CORS @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] D:\web\smallProject\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'createOne',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '157',
+  'accept' => '*/*',
+  'origin' => 'http://t.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'token' => '3bcf557e59ac1fcf8153aee8b6e14e39',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://t.cn/pages/form.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '14969',
+  'name' => '棠溪汤包',
+  'price' => '0.01',
+  'file' => '',
+  'imgName' => 'Cu3face-girl@2.jpeg',
+  'stock' => '999',
+  'category_id' => '5',
+  'summary' => '好吃的包',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Product->createOne[ D:\web\smallProject\Zerg\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-05-21T09:40:42+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/product/create?XDEBUG_SESSION_START=14969
+[ log ] z.cn/api/v1/product/create?XDEBUG_SESSION_START=14969 [运行时间：0.468000s][吞吐率：2.14req/s] [内存消耗：2,960.73kb] [文件加载：59]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\CORS @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] D:\web\smallProject\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'createOne',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '157',
+  'accept' => '*/*',
+  'origin' => 'http://t.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'token' => '3bcf557e59ac1fcf8153aee8b6e14e39',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://t.cn/pages/form.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '14969',
+  'name' => '棠溪汤包',
+  'price' => '0.01',
+  'file' => '',
+  'imgName' => 'Cu3face-girl@2.jpeg',
+  'stock' => '999',
+  'category_id' => '5',
+  'summary' => '好吃的包',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Product->createOne[ D:\web\smallProject\Zerg\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-05-21T09:40:49+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/product/paginate?page=1&size=20
+[ log ] z.cn/api/v1/product/paginate?page=1&size=20 [运行时间：0.273000s][吞吐率：3.66req/s] [内存消耗：3,130.14kb] [文件加载：57]
+
+---------------------------------------------------------------
+[ 2018-05-21T09:41:06+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/image/toupload
+[ log ] z.cn/api/v1/image/toupload [运行时间：0.236000s][吞吐率：4.24req/s] [内存消耗：2,002.89kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2018-05-21T09:41:09+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/product/create?XDEBUG_SESSION_START=14969
+[ log ] z.cn/api/v1/product/create?XDEBUG_SESSION_START=14969 [运行时间：0.472000s][吞吐率：2.12req/s] [内存消耗：2,960.61kb] [文件加载：59]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\CORS @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\web\smallProject\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'createOne',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '91',
+  'accept' => '*/*',
+  'origin' => 'http://t.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'token' => '3bcf557e59ac1fcf8153aee8b6e14e39',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://t.cn/pages/form.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '14969',
+  'name' => '666',
+  'price' => '666',
+  'file' => '',
+  'imgName' => 'Oa2face-girl@2.jpeg',
+  'stock' => '0.01',
+  'category_id' => '3',
+  'summary' => '132',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Product->createOne[ D:\web\smallProject\Zerg\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-05-21T09:46:16+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/product/paginate?page=1&size=20
+[ log ] z.cn/api/v1/product/paginate?page=1&size=20 [运行时间：0.264000s][吞吐率：3.79req/s] [内存消耗：3,129.87kb] [文件加载：57]
+
+---------------------------------------------------------------
+[ 2018-05-21T09:46:24+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/image/toupload
+[ log ] z.cn/api/v1/image/toupload [运行时间：0.239000s][吞吐率：4.18req/s] [内存消耗：2,002.89kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2018-05-21T09:46:29+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/product/create?XDEBUG_SESSION_START=14969
+[ log ] z.cn/api/v1/product/create?XDEBUG_SESSION_START=14969 [运行时间：0.479000s][吞吐率：2.09req/s] [内存消耗：2,962.46kb] [文件加载：59]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\CORS @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] D:\web\smallProject\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'createOne',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '91',
+  'accept' => '*/*',
+  'origin' => 'http://t.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'token' => '3bcf557e59ac1fcf8153aee8b6e14e39',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://t.cn/pages/form.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '14969',
+  'name' => '321213',
+  'price' => '321',
+  'file' => '',
+  'imgName' => 'El0face-girl@2.jpeg',
+  'stock' => '1',
+  'category_id' => '7',
+  'summary' => '321',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Product->createOne[ D:\web\smallProject\Zerg\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-05-21T09:47:43+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/product/paginate?page=1&size=20
+[ log ] z.cn/api/v1/product/paginate?page=1&size=20 [运行时间：0.278000s][吞吐率：3.60req/s] [内存消耗：3,130.37kb] [文件加载：57]
+
+---------------------------------------------------------------
+[ 2018-05-21T09:47:50+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/image/toupload
+[ log ] z.cn/api/v1/image/toupload [运行时间：0.234000s][吞吐率：4.27req/s] [内存消耗：2,002.89kb] [文件加载：44]
+
+---------------------------------------------------------------
+[ 2018-05-21T09:47:55+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/product/create?XDEBUG_SESSION_START=14969
+[ log ] z.cn/api/v1/product/create?XDEBUG_SESSION_START=14969 [运行时间：0.286000s][吞吐率：3.50req/s] [内存消耗：2,914.60kb] [文件加载：55]
+
+---------------------------------------------------------------
+[ 2018-05-21T09:59:28+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/product/paginate?page=1&size=20
+[ log ] z.cn/api/v1/product/paginate?page=1&size=20 [运行时间：0.289000s][吞吐率：3.46req/s] [内存消耗：3,130.65kb] [文件加载：57]
+
+---------------------------------------------------------------
+[ 2018-05-21T09:59:36+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/image/toupload
+[ log ] z.cn/api/v1/image/toupload [运行时间：0.238000s][吞吐率：4.20req/s] [内存消耗：1,625.05kb] [文件加载：40]
+
+---------------------------------------------------------------
+[ 2018-05-21T09:59:40+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/product/create?XDEBUG_SESSION_START=14969
+[ log ] z.cn/api/v1/product/create?XDEBUG_SESSION_START=14969 [运行时间：0.287000s][吞吐率：3.48req/s] [内存消耗：2,914.93kb] [文件加载：55]
+
+---------------------------------------------------------------
+[ 2018-05-21T10:00:41+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/product/paginate?page=1&size=20
+[ log ] z.cn/api/v1/product/paginate?page=1&size=20 [运行时间：0.272000s][吞吐率：3.68req/s] [内存消耗：3,129.52kb] [文件加载：57]
+
+---------------------------------------------------------------
+[ 2018-05-21T10:00:48+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/image/toupload
+[ log ] z.cn/api/v1/image/toupload [运行时间：0.233000s][吞吐率：4.29req/s] [内存消耗：1,625.06kb] [文件加载：40]
+
+---------------------------------------------------------------
+[ 2018-05-21T10:00:53+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/product/create?XDEBUG_SESSION_START=14969
+[ log ] z.cn/api/v1/product/create?XDEBUG_SESSION_START=14969 [运行时间：0.475000s][吞吐率：2.11req/s] [内存消耗：2,979.24kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\CORS @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] D:\web\smallProject\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'createOne',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '85',
+  'accept' => '*/*',
+  'origin' => 'http://t.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'token' => '3bcf557e59ac1fcf8153aee8b6e14e39',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://t.cn/pages/form.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '14969',
+  'name' => '123',
+  'price' => '123',
+  'file' => '',
+  'imgName' => 'product-dx.jpg',
+  'stock' => '666',
+  'category_id' => '6',
+  'summary' => '21321',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Product->createOne[ D:\web\smallProject\Zerg\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-05-21T10:05:11+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/product/create
+[ log ] z.cn/api/v1/product/create [运行时间：0.456000s][吞吐率：2.19req/s] [内存消耗：2,942.09kb] [文件加载：60]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\CORS @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] D:\web\smallProject\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'createOne',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------316677694130368107304244',
+  'token' => '3bcf557e59ac1fcf8153aee8b6e14e39',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4198fa65-0796-43cc-a08c-fc528474b2c9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'z.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '609',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '溏心桂花糕',
+  'price' => '0.01',
+  'stock' => '999',
+  'category_id' => '5',
+  'summary' => '321',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Product->createOne[ D:\web\smallProject\Zerg\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-05-21T10:05:50+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/product/create
+[ log ] z.cn/api/v1/product/create [运行时间：0.442000s][吞吐率：2.26req/s] [内存消耗：2,957.07kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\CORS @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] D:\web\smallProject\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'createOne',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------198399224682709681629392',
+  'token' => '3bcf557e59ac1fcf8153aee8b6e14e39',
+  'cache-control' => 'no-cache',
+  'postman-token' => '56e666dd-2d5a-4829-9128-f51044cf8e5a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'z.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '609',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '溏心桂花糕',
+  'price' => '0.01',
+  'stock' => '999',
+  'category_id' => '5',
+  'summary' => '321',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Product->createOne[ D:\web\smallProject\Zerg\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-05-21T10:06:06+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/product/create
+[ log ] z.cn/api/v1/product/create [运行时间：0.443000s][吞吐率：2.26req/s] [内存消耗：2,957.07kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\CORS @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] D:\web\smallProject\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'createOne',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------860616487373851919410227',
+  'token' => '3bcf557e59ac1fcf8153aee8b6e14e39',
+  'cache-control' => 'no-cache',
+  'postman-token' => '0e74ff6b-7261-4d5f-b56f-da2a1018ef7c',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'z.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '609',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '溏心桂花糕',
+  'price' => '0.01',
+  'stock' => '999',
+  'category_id' => '5',
+  'summary' => '321',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Product->createOne[ D:\web\smallProject\Zerg\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-05-21T10:06:18+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/product/paginate?page=1&size=20
+[ log ] z.cn/api/v1/product/paginate?page=1&size=20 [运行时间：0.275000s][吞吐率：3.64req/s] [内存消耗：3,128.72kb] [文件加载：57]
+
+---------------------------------------------------------------
+[ 2018-05-21T10:06:28+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/product/create?XDEBUG_SESSION_START=14969
+[ log ] z.cn/api/v1/product/create?XDEBUG_SESSION_START=14969 [运行时间：0.446000s][吞吐率：2.24req/s] [内存消耗：2,957.46kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\CORS @app_init [ RunTime:0.001000s ]
+[ info ] [ LANG ] D:\web\smallProject\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'createOne',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'z.cn',
+  'connection' => 'keep-alive',
+  'content-length' => '69',
+  'accept' => '*/*',
+  'origin' => 'http://t.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'token' => '3bcf557e59ac1fcf8153aee8b6e14e39',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://t.cn/pages/form.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'XDEBUG_SESSION_START' => '14969',
+  'name' => '321',
+  'price' => '321',
+  'file' => '',
+  'imgName' => '',
+  'stock' => '321',
+  'category_id' => '3',
+  'summary' => '321',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Product->createOne[ D:\web\smallProject\Zerg\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-05-21T10:06:41+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/product/create
+[ log ] z.cn/api/v1/product/create [运行时间：0.439000s][吞吐率：2.28req/s] [内存消耗：2,957.07kb] [文件加载：61]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\CORS @app_init [ RunTime:0.000000s ]
+[ info ] [ LANG ] D:\web\smallProject\Zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Product',
+    2 => 'createOne',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'multipart/form-data; boundary=--------------------------178573960388880330211697',
+  'token' => '3bcf557e59ac1fcf8153aee8b6e14e39',
+  'cache-control' => 'no-cache',
+  'postman-token' => '165bc86e-a2ef-40db-a768-f98dd28d0440',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'z.cn',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '609',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '溏心桂花糕',
+  'price' => '0.01',
+  'stock' => '999',
+  'category_id' => '5',
+  'summary' => '321',
+  'version' => 'v1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\api\controller\v1\Product->createOne[ D:\web\smallProject\Zerg\application\api\controller\v1\Product.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT file
+
+---------------------------------------------------------------
+[ 2018-05-21T10:07:07+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/product/create
+[ log ] z.cn/api/v1/product/create [运行时间：0.261000s][吞吐率：3.83req/s] [内存消耗：2,906.91kb] [文件加载：55]
+
+---------------------------------------------------------------
+[ 2018-05-21T10:08:08+08:00 ] 127.0.0.7 127.0.0.1 POST /api/v1/product/create
+[ log ] z.cn/api/v1/product/create [运行时间：0.250000s][吞吐率：4.00req/s] [内存消耗：2,915.72kb] [文件加载：56]
+
+---------------------------------------------------------------
+[ 2018-05-21T10:08:52+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/product/paginate?page=1&size=20
+[ log ] z.cn/api/v1/product/paginate?page=1&size=20 [运行时间：0.275000s][吞吐率：3.64req/s] [内存消耗：3,130.71kb] [文件加载：57]
+
+---------------------------------------------------------------
+[ 2018-05-21T10:10:04+08:00 ] 127.0.0.7 127.0.0.1 GET /api/v1/product/paginate?page=1&size=20
+[ log ] z.cn/api/v1/product/paginate?page=1&size=20 [运行时间：0.266000s][吞吐率：3.76req/s] [内存消耗：3,130.79kb] [文件加载：57]
+
+---------------------------------------------------------------
