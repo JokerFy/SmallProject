@@ -55,7 +55,7 @@
             </div>
             <div class="desktop-main">
                 <div class="order-box">
-                    <table cellspacing="0" ng-show="docArr.length>0">
+                    <table cellspacing="0" ng-show="docArr.length>0" style="table-layout:fixed;white-space: nowrap;">
                         <thead>
                             <tr>
                                 <td>ID</td>
@@ -64,7 +64,8 @@
                                 <td>商品库存</td>
                                 <td>商品分类</td>
                                 <td>产品主图</td>
-                                <td>上传时间</td>
+                                <!--<td>上传时间</td>-->
+                                <td>简介</td>
                                 <td>操作</td>
                             </tr>
                         </thead>
@@ -84,6 +85,8 @@
 </body>
 <script src="../js/base/common.js" type="application/javascript"></script>
 <script src="../layui/layui.js"></script>
+<script src="../js/base/jquery-1.8.2.min.js" type="application/javascript"></script>
+<script src="../js/product/product.js" type="application/javascript"></script>
 <script>
     function layermsg() {
         layui.use('layer', function () {
@@ -100,6 +103,4 @@
         });
     }
 </script>
-<script src="../js/base/jquery-1.8.2.min.js" type="application/javascript"></script>
-<script src="../js/product/product.js" type="application/javascript"></script>
 </html>

@@ -149,6 +149,21 @@ class Product extends BaseController
         return $Pcreate;
     }
 
+    public function uploadOne()
+    {
+        (new IDMustBePositiveInt())->goCheck();
+        $product = new ProductModel();
+        $Image = new ImageModel();
+        $data = input('put.');
+        $data['img_id'] = $Image->addImage($data['imgName']);
+        $data['main_img_url'] = '/'.$data['imgName'];
+        $Pcreate = $product->allowField(true)->data($data)->save();
+        if(!$Pcreate){
+            throw new proCreateException();
+        }
+        return $Pcreate;
+    }
+
     public function deleteOne($id)
     {
         ProductModel::destroy($id);
@@ -173,7 +188,7 @@ class Product extends BaseController
                 'data' => []
             ];
         }
-        $data = $pagingProducts->hidden(['summary','img_id'])
+        $data = $pagingProducts->hidden(['img_id'])
             ->toArray();
         return [
             'current_page' => $pagingProducts->currentPage(),

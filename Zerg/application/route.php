@@ -38,6 +38,7 @@ Route::group('api/:version/theme',function(){
 
 //Product
 Route::post('api/:version/product/create', 'api/:version.Product/createOne');
+Route::put('api/:version/product/save', 'api/:version.Product/uploadOne');
 Route::delete('api/:version/product/:id', 'api/:version.Product/deleteOne');
 Route::get('api/:version/product/by_category/paginate', 'api/:version.Product/getByCategory');
 Route::get('api/:version/product/by_category', 'api/:version.Product/getAllInCategory');

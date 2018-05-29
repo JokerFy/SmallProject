@@ -40,10 +40,11 @@ $(function(){
                         '<td>' + item.id + '</td>' +
                         '<td>' + item.name + '</td>' +
                         '<td>' + item.price + '</td>' +
-                        '<td>￥' + item.stock + '</td>' +
+                        '<td>' + item.stock + '</td>' +
                         '<td>' + getCategoryName(item.category_id) + '</td>' +
                         '<td><image style="vertical-align: middle;width: 50px;height: 50px" src="' + item.main_img_url + '">'+'</image></td>' +
-                        '<td>'+item.create_time+'</td>' +
+                        // '<td>'+item.create_time+'</td>' +
+                        '<td width="10%" style="overflow: hidden;text-overflow:ellipsis;">'+item.summary+'</td>' +
                         '<td data-id="' + item.id + '"><span class="order-btn done">编辑</span><span class="order-btn unstock">删除</span></td>' +
                         '</tr>';
                 }
@@ -95,7 +96,57 @@ $(function(){
             getProducts(pageIndex);
         }
     });
-    /*发货*/
+
+    /*编辑*/
+    $(document).on('click','.order-btn.done',function(){
+        var $this = $(this),
+            $data = $this.parent().siblings(),
+            $arr = [];
+        // console.log($data);
+        for(var i=0;i<$data.length;i++){
+            if(i===5){
+                $arr.push($data[i].firstChild.currentSrc);
+                continue;
+            }
+            $arr.push($data[i].innerText);
+        }
+        layui.use('layer', function () {
+            var layer = layui.layer;
+            layer.open({
+                type: 2,
+                area: ['900px', '700px'],
+                fixed: false, //不固定
+                maxmin: true,
+                content: 'form.html',
+                shadeClose:true,
+                success: function(layero, index){
+                    var body = layer.getChildFrame('body',index);//建立父子联系
+                    var iframeWin = window[layero.find('iframe')[0]['name']];
+                    var inputList = body.find('input');
+                    body.find('legend')[0].innerText= '编辑商品';
+                    body.find('textarea').val($arr[6]);
+                    for(var j = 0; j< inputList.length; j++){
+                        if(j===4)
+                        {
+                            var $image = body.find('img')[0];
+                            $image.src = $arr[5];
+                            $image.style.width="100px";
+                            $image.style.height="100px";
+                            continue;
+                        }
+                        else if(j===5)
+                        {
+                            $(inputList[j]).val($arr[5]);
+                            continue;
+                        }
+                        $(inputList[j]).val($arr[j+1]);
+                    }
+                }
+            });
+        });
+    });
+
+    /*删除*/
     $(document).on('click','.order-btn.unstock',function(){
         var $this=$(this),
             $td=$this.closest('td'),
